@@ -42,5 +42,10 @@ public class Main {
         //10. Constructor inheritence order demo
         System.out.println("10. Constructor inheritence order demo ------------");
         new ConstructorInheritenceOrder().execute();
+
+        //11. Non-string to string
+        System.out.println("11. Non string to string --------------------------");
+        System.out.println(2+3);
+        System.out.println(2 + "3"); //Gets treated as string
     }
 }

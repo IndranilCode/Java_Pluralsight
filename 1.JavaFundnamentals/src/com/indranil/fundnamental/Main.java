@@ -30,5 +30,9 @@ public class Main {
         //7. Super keyword demo
         System.out.println("7. Super keyword -----------------------------------");
         new SuperKeywordDemo().execute();
+
+        //8. Final keyword demo
+        System.out.println("8. Final keyword -----------------------------------");
+        new FinalKeywordDemo().execute();
     }
 }

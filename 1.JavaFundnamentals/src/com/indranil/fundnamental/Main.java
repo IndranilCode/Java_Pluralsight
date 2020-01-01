@@ -22,5 +22,13 @@ public class Main {
         //5. Object class
         System.out.println("5. Object class ------------------------------------");
         new ObjectClassDemo().execute();
+
+        //6. Object equality check
+        System.out.println("6. Object equality check ---------------------------");
+        new ObjectEqualityCheck().execute();
+
+        //7. Super keyword demo
+        System.out.println("7. Super keyword -----------------------------------");
+        new SuperKeywordDemo().execute();
     }
 }

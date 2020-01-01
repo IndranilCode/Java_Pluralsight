@@ -34,5 +34,13 @@ public class Main {
         //8. Final keyword demo
         System.out.println("8. Final keyword -----------------------------------");
         new FinalKeywordDemo().execute();
+
+        //9. Final keyword demo
+        System.out.println("9. Abstract demo -----------------------------------");
+        new AbstractDemo().execute();
+
+        //10. Constructor inheritence order demo
+        System.out.println("10. Constructor inheritence order demo ------------");
+        new ConstructorInheritenceOrder().execute();
     }
 }
